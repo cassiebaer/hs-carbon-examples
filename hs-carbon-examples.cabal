@@ -19,7 +19,7 @@ source-repository head
 executable PiExample
   hs-source-dirs: examples-src
   build-depends:
-    base == 4.*, hs-carbon, tf-random
+    base == 4.*, hs-carbon, tf-random, criterion
   main-is: Pi.hs
   ghc-options: -Wall -threaded -O3
 
